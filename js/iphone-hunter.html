@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>iphone-hunter</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/0e5e7bdd0c.js" crossorigin="anonymous"></script>
+    <style>
+        
+    </style>
+  </head>
+  <body>
+     <header>
+        <h1 class="text-orange-500 text-5xl text-center mt-10">Brand new iphone hunter</h1>
+     </header>
+     <main class="container">
+      <!-- search section -->
+      <section>
+            <div class="text-end mt-10 mx-10">
+              <input id="input-field" class="p-2 text-lg text-black border border-zinc-500" type="text" value="" placeholder="Search your favarite phone">
+            <button id="search-btn" class="bg-green-500 text-white text-2xl border rounded-md px-5 py-2">Search</button>
+            </div>
+      </section>
+      <!-- iphone-list -->
+        <section>
+            <div id="iphone-container" class="grid grid-cols-4 gap-4">
+             
+            </div>
+            <!-- no search found -->
+             <div id="no-massages" class="hidden">
+              <h1 class="text-5xl text-lime-600 text-center mt-5"><i class="fa-sharp fa-solid fa-xmark text-red-700"></i> <i class="fa-sharp fa-solid fa-xmark text-red-700"></i>  No search found. Pleace try again  <i class="fa-sharp fa-solid fa-xmark text-red-700"></i> <i class="fa-sharp fa-solid fa-xmark text-red-700"></i></h1>
+             </div>
+              <!-- more all item -->
+            <div id="more-all" class="text-center hidden">
+              <button id="more-all-btn" class="bg-red-500 text-white text-2xl border rounded-md px-5 py-1 mt-5 mb-3">More all</button>
+            </div>
+        </section>
+     </main>
+    <script src="iphone-hunter.js"></script>
+  </body>
+</html>

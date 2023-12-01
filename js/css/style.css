@@ -1,0 +1,23 @@
+ 
+
+.phone{
+    border: 2px solid rgb(240, 206, 206);
+     
+     margin-left: 20px;
+     margin-right: 40px;
+     margin-top: 70px;
+     width: 90%;
+     border-radius: 20px;
+}
+.phone-img{
+    margin: auto;
+    margin-top: 10px;
+}
+.text-phone{
+    text-align: center;
+    padding: 5px;
+    margin-top: 5px;
+    margin-top: 2px;
+    
+}
+ 
